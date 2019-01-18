@@ -1,0 +1,147 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.0.3 (Release date: Sun Dec 02 18:41:45 2018 -0800)
+
+For further information on how to interpret please access http://meme-suite.org.
+To get a copy of the MEME software please access http://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= /home/jiyindna/Desktop/Dubiosys/Data/Dapseq/Project_AAHZ_L2_DAP_seqpool/fasta/bZIP13_S8_L002_R1_001.fasta.nodup
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /home/jiyindna/Desktop/Dubiosys/Data/Dapseq/Project_AAHZ_L2_DAP_seqpool/fasta/bZIP13_S8_L002_R1_001.fasta.nodup -nmotifs 1 -minw 4 -maxw 12 -dna -mod oops -nostatus -oc /home/jiyindna/Desktop/Dubiosys/Data/Dapseq/Project_AAHZ_L2_DAP_seqpool/GEM_BED/bZIP13_S8_L002_R1_001-meme -mpi 
+
+model:  mod=          oops    nmotifs=         1    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: +
+width:  minw=            4    maxw=           12
+nsites: minsites=     2498    maxsites=     2498    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=          499600    N=            2498
+sample: seed=            0    hsfrac=          0
+        searchsize= 100000    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.242 C 0.26 G 0.256 T 0.241 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.242 C 0.26 G 0.256 T 0.241 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF TKCCACGTGGAA MEME-1	width =  12  sites = 2498  llr = 16078  E-value = 3.3e-212
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif TKCCACGTGGAA MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  11218:::1165
+pos.-specific     C  2177:9:11:32
+probability       G  23111:9:77:2
+matrix            T  5511:::91211
+
+         bits    2.1             
+                 1.8             
+                 1.6             
+                 1.4      **     
+Relative         1.2     ****    
+Entropy          1.0     ****    
+(9.3 bits)       0.8     *****   
+                 0.6   ********  
+                 0.4  ********** 
+                 0.2 ************
+                 0.0 ------------
+
+Multilevel           TTCCACGTGGAA
+consensus            GGA       C 
+sequence             C           
+                                 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TKCCACGTGGAA MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 12 n= 463091 bayes= 9.00499 E= 3.3e-212 
+  -141    -35    -25    102 
+  -101   -183     18    110 
+    -5    133   -223   -206 
+  -133    149   -138   -171 
+   180   -332   -155   -255 
+  -293    181   -261   -396 
+  -373   -260    184   -354 
+  -240   -204   -304    184 
+  -178   -141    152   -130 
+  -167   -242    140    -28 
+   121      3   -242    -95 
+   111    -53    -39   -125 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TKCCACGTGGAA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 12 nsites= 2498 E= 3.3e-212 
+ 0.090946  0.204138  0.215681  0.489235 
+ 0.120170  0.073233  0.290541  0.516056 
+ 0.234358  0.653001  0.054855  0.057786 
+ 0.096247  0.731464  0.098490  0.073798 
+ 0.845247  0.026100  0.087681  0.040972 
+ 0.031893  0.910511  0.042147  0.015448 
+ 0.018282  0.043017  0.918048  0.020652 
+ 0.045807  0.063330  0.031236  0.859627 
+ 0.070627  0.098157  0.733798  0.097417 
+ 0.076134  0.048814  0.677250  0.197801 
+ 0.562123  0.264987  0.047947  0.124943 
+ 0.523098  0.180311  0.195059  0.101532 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TKCCACGTGGAA MEME-1 regular expression
+--------------------------------------------------------------------------------
+[TGC][TG][CA]CACGTGG[AC]A
+--------------------------------------------------------------------------------
+
+
+
+
+Time 41.51 secs.
+
+********************************************************************************
+
+********************************************************************************
+Stopped because requested number of motifs (1) found.
+********************************************************************************
+
+CPU: Duhome
+
+********************************************************************************

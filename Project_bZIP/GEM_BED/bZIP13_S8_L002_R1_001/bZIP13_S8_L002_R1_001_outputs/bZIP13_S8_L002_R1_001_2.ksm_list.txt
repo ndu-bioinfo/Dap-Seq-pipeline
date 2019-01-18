@@ -1,0 +1,2 @@
+bZIP13_S8_L002_R1_001_2.m0	/home/jiyindna/Desktop/Dubiosys/Data/Dapseq/Project_AAHZ_L2_DAP_seqpool/GEM_BED/bZIP13_S8_L002_R1_001/bZIP13_S8_L002_R1_001_outputs/bZIP13_S8_L002_R1_001_2.m0.KSM.txt
+bZIP13_S8_L002_R1_001_2.m1	/home/jiyindna/Desktop/Dubiosys/Data/Dapseq/Project_AAHZ_L2_DAP_seqpool/GEM_BED/bZIP13_S8_L002_R1_001/bZIP13_S8_L002_R1_001_outputs/bZIP13_S8_L002_R1_001_2.m1.KSM.txt

@@ -14,5 +14,5 @@ Here is a quick review of the output from this pipeline.(left) predicted motif m
 
 <img src='./images/output.png' width=1200 >
 
-
+bigwig and gff files for peak/motif binding site visualization in IGV or other compatible tools are in the zip file generated at the end of this pipeline.
 

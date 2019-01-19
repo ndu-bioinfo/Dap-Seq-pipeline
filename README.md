@@ -8,7 +8,7 @@ https://www.nature.com/articles/nprot.2017.055
 
 Flowchart of this impelemented pipeline
 
-<img src='./images/pipeline.png' width=800 >
+<img src='./images/flowchart.png' width=800 >
 
 Here is a quick review of the output from this pipeline.(left) predicted motif model (right) size of the circles are representative of the peaks called by MACS2 and GEM, as well as motif discovered via meme suite. The ovrlap shows the number of peaks/motif loci matches.
 

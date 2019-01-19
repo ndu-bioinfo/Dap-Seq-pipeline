@@ -12,7 +12,7 @@ Flowchart of this impelemented pipeline
 
 Here is a quick review of the output from this pipeline.(left) predicted motif model (right) size of the circles are representative of the peaks called by MACS2 and GEM, as well as motif discovered via meme suite. The ovrlap shows the number of peaks/motif loci matches.
 
-<img src='./images/output.png' width=1200 >
+<img src='./images/output.png' width=1000 >
 
 bigwig and gff files for peak/motif binding site visualization in IGV or other compatible tools are in the zip file generated at the end of this pipeline.
 

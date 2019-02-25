@@ -14,5 +14,10 @@ Here is a quick review of the output from this pipeline.(left) predicted motif m
 
 <img src='./images/output.png' width=1000 >
 
+The basic steps in this pipeline include: 1. Map sequenced reads to reference genome; 2. Filter out unmapped and duplicated reads; 3. Identify regions where the mapping signals peak; 4. Build motif models based on repeated sequences at peak regions; 5. Search TF binding sites using modeled motifs in reference genome; 6. Generate results table and charts for further analysis.    
+
+Bartlett, Anna, Ronan C. O'Malley, Shao-shan Carol Huang, Mary Galli, Joseph R. Nery, Andrea Gallavotti, and Joseph R. Ecker. "Mapping genome-wide transcription-factor binding sites using DAP-seq." Nature protocols 12, no. 8 (2017): 1659.
+
+
 bigwig and gff files for peak/motif binding site visualization in IGV or other compatible tools are in the zip file generated at the end of this pipeline.
 

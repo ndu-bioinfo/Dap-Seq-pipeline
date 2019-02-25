@@ -11,6 +11,7 @@ Flowchart of this impelemented pipeline
 <img src='./images/flowchart.png' width=800 >
 The basic steps in this pipeline include: 1. Map sequenced reads to reference genome; 2. Filter out unmapped and duplicated reads; 3. Identify regions where the mapping signals peak; 4. Build motif models based on repeated sequences at peak regions; 5. Search TF binding sites using modeled motifs in reference genome; 6. Generate results table and charts for further analysis.    
 
+###
 
 Here is a quick review of the output from this pipeline.(left) predicted motif model (right) size of the circles are representative of the peaks called by MACS2 and GEM, as well as motif discovered via meme suite. The ovrlap shows the number of peaks/motif loci matches.
 

@@ -9,12 +9,13 @@ https://www.nature.com/articles/nprot.2017.055
 Flowchart of this impelemented pipeline
 
 <img src='./images/flowchart.png' width=800 >
+The basic steps in this pipeline include: 1. Map sequenced reads to reference genome; 2. Filter out unmapped and duplicated reads; 3. Identify regions where the mapping signals peak; 4. Build motif models based on repeated sequences at peak regions; 5. Search TF binding sites using modeled motifs in reference genome; 6. Generate results table and charts for further analysis.    
+
 
 Here is a quick review of the output from this pipeline.(left) predicted motif model (right) size of the circles are representative of the peaks called by MACS2 and GEM, as well as motif discovered via meme suite. The ovrlap shows the number of peaks/motif loci matches.
 
 <img src='./images/output.png' width=1000 >
 
-The basic steps in this pipeline include: 1. Map sequenced reads to reference genome; 2. Filter out unmapped and duplicated reads; 3. Identify regions where the mapping signals peak; 4. Build motif models based on repeated sequences at peak regions; 5. Search TF binding sites using modeled motifs in reference genome; 6. Generate results table and charts for further analysis.    
 
 Bartlett, Anna, Ronan C. O'Malley, Shao-shan Carol Huang, Mary Galli, Joseph R. Nery, Andrea Gallavotti, and Joseph R. Ecker. "Mapping genome-wide transcription-factor binding sites using DAP-seq." Nature protocols 12, no. 8 (2017): 1659.
 
